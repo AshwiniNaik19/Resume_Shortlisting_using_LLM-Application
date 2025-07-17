@@ -1,0 +1,2001 @@
+company_name,rank
+JPMorgan Chase,1
+Saudi Arabian Oil Company (Saudi Aramco),2
+ICBC,3
+China Construction Bank,4
+Agricultural Bank of China,5
+Bank of America,6
+Alphabet,7
+ExxonMobil,8
+Microsoft,9
+Apple,10
+Shell,11
+Bank of China,12
+Toyota Motor,13
+Samsung Electronics,14
+UnitedHealth Group,15
+Ping An Insurance Group,16
+Wells Fargo,17
+Chevron,18
+PetroChina,19
+HSBC Holdings,20
+TotalEnergies,21
+Verizon Communications,22
+Walmart,23
+Citigroup,24
+China Mobile,25
+China Merchants Bank,26
+Postal Savings Bank Of China (PSBC),27
+BP,28
+Volkswagen Group,29
+Morgan Stanley,30
+Meta Platforms,31
+Sinopec,32
+BNP Paribas,33
+Goldman Sachs Group,34
+Tencent Holdings,35
+Amazon,36
+Allianz,37
+RBC,38
+Pfizer,39
+Johnson & Johnson,40
+Deutsche Telekom,41
+Mercedes-Benz Group,42
+TD Bank Group,43
+Taiwan Semiconductor,44
+Reliance Industries,45
+BMW Group,46
+LVMH Moët Hennessy Louis Vuitton,47
+AXA Group,48
+Santander,49
+Nestlé,50
+Comcast,51
+Equinor,52
+Bank of Communications,53
+Alibaba Group,54
+Procter & Gamble,55
+Nippon Telegraph & Tel,56
+Sony,57
+Petrobras,58
+Glencore International,59
+Industrial Bank,60
+Stellantis,61
+China Life Insurance,62
+American Express,63
+General Electric,64
+CVS Health,65
+China State Construction Engineering,66
+The Home Depot,67
+Cigna,68
+Tesla,69
+General Motors,70
+CITIC,71
+Anheuser-Busch InBev,72
+Merck & Co.,73
+AbbVie,74
+Mitsubishi,75
+Roche Holding,76
+State Bank of India,77
+Elevance Health,78
+Raytheon Technologies,79
+Oracle,80
+Eni,81
+PepsiCo,82
+ConocoPhillips,83
+Bank of Montreal,84
+CNOOC,85
+Sumitomo Mitsui Financial,86
+Walt Disney,87
+Bank of Nova Scotia,88
+Sanofi,89
+BHP Group,90
+Mitsubishi UFJ Financial,91
+UBS,92
+Cisco Systems,93
+Novartis,94
+United Parcel Service,95
+Coca-Cola,96
+Siemens,97
+Itaú Unibanco Holding,98
+Costco Wholesale,99
+Commonwealth Bank,100
+Rio Tinto,101
+Iberdrola,102
+BBVA-Banco Bilbao Vizcaya,103
+Hyundai Motor,104
+Unilever,105
+Zurich Insurance Group,106
+Deere & Company,107
+Mitsui,108
+Honda Motor,109
+British American Tobacco,110
+Bristol Myers Squibb,111
+Chubb,112
+Intesa Sanpaolo,113
+Munich Re,114
+Shanghai Pudong Development,115
+Hon Hai Precision,116
+Marathon Petroleum,117
+Thermo Fisher Scientific,118
+Caterpillar,119
+Charles Schwab,120
+Contemporary Amperex Technology,121
+Visa,122
+American International Group,123
+Ford Motor,124
+Itochu,125
+AstraZeneca,126
+AIRBUS,127
+HDFC Bank,128
+Credit Agricole,129
+VINCI,130
+China Shenhua Energy,131
+US Bancorp,132
+China Citic Bank,133
+Broadcom,134
+NextEra Energy,135
+Phillips 66,136
+Bayer,137
+Charter Communications,138
+Vale,139
+NAB - National Australia Bank,140
+Hitachi,141
+Abbott Laboratories,142
+Japan Post Holdings,143
+ANZ,144
+Danaher,145
+China Telecom,146
+Lloyds Banking Group,147
+Capital One,148
+PNC Financial Services,149
+Brookfield Corporation,150
+PICC,151
+Generali Group,152
+Mizuho Financial,153
+Deutsche Post,154
+Truist Financial,155
+China Pacific Insurance,156
+Amgen,157
+KDDI,158
+Lockheed Martin,159
+Accenture,160
+Lowe's,161
+Linde,162
+ICICI Bank,163
+Barclays,164
+Valero Energy,165
+Philip Morris International,166
+FedEx,167
+MetLife,168
+Occidental Petroleum,169
+BYD,170
+Banco do Brasil,171
+Medtronic,172
+Banco Bradesco,173
+Møller-Maersk,174
+IBM,175
+UniCredit,176
+América Móvil,177
+Enel,178
+Southern Company,179
+Qualcomm,180
+Oversea-Chinese Banking,181
+L'Oréal,182
+Canadian Imperial Bank,183
+HCA Healthcare,184
+Duke Energy,185
+Honeywell International,186
+GSK,187
+Deutsche Bank,188
+McKesson,189
+DBS,190
+China Everbright Bank,191
+Mondelez International,192
+Tokio Marine Holdings,193
+Union Pacific,194
+Enbridge,195
+Porsche Automobil Holding,196
+Westpac Banking Group,197
+China Railway Group,198
+Midea Group,199
+ING Group,200
+Eli Lilly,201
+Humana,202
+Target,203
+Archer Daniels Midland,204
+NatWest Group,205
+Schneider Electric,206
+National Grid,207
+Qatar National Bank,208
+E.ON,209
+China Minsheng Bank,210
+Nike,211
+Gilead Sciences,212
+RWE Group,213
+ArcelorMittal,214
+BlackRock,215
+Suncor Energy,216
+McDonald's,217
+Canadian Natural Resources,218
+Nordea Bank,219
+China Resources Land,220
+SAP,221
+Travelers,222
+Netflix,223
+JD.com,224
+Dell Technologies,225
+Oil & Natural Gas,226
+CK Hutchison,227
+China Vanke,228
+Vodafone,229
+Volvo Group,230
+Seven & I Holdings,231
+HDFC,232
+Bank of New York Mellon,233
+Anglo American,234
+Mastercard,235
+Novo Nordisk,236
+Northrop Grumman,237
+PTT,238
+PayPal,239
+ASML Holding,240
+NVIDIA,241
+3M,242
+Poly Developments & Holdings Group,243
+General Dynamics,244
+Macquarie Group,245
+EOG Resources,246
+Takeda Pharmaceutical,247
+Air Liquide,248
+Aflac,249
+Sun Life Financial,250
+Orange,251
+Cosco Shipping,252
+Kraft Heinz Company,253
+Nutrien,254
+Standard Chartered,255
+KIA,256
+Dow,257
+SAIC Motor,258
+Centene,259
+The Saudi National Bank,260
+Sumitomo,261
+EssilorLuxottica,262
+"Merck KGaA, Darmstadt, Germany and its affiliates",263
+Schlumberger,264
+China Railway Construction,265
+Kroger,266
+Marubeni,267
+Holcim,268
+Dai-ichi Life Insurance,269
+Nippon Steel,270
+Denso,271
+Royal Ahold Delhaize N.V.,272
+Inditex,273
+KBC Group,274
+Diageo,275
+Manulife,276
+China Unicom,277
+KB Financial Group,278
+SK Hynix,279
+Saint-Gobain,280
+Cheniere Energy,281
+Daimler Truck Holding,282
+PKN Orlen,283
+Zijin Mining Group,284
+Kweichow Moutai,285
+Telefónica,286
+AmerisourceBergen,287
+Al Rajhi Bank,288
+Power Construction Corporation of China,289
+Repsol,290
+First Abu Dhabi Bank,291
+Fiserv,292
+Automatic Data Processing,293
+EnBW-Energie Baden,294
+TJX Cos,295
+Saudi Electricity,296
+CaixaBank,297
+ABB,298
+Posco,299
+Shinhan Financial Group,300
+Altria Group,301
+Starbucks,302
+Power Corp of Canada,303
+CRH,304
+International Holding Company,305
+Exelon,306
+Longfor Group Holdings,307
+Bank Rakyat Indonesia (BRI),308
+Woodside Energy Group,309
+American Electric,310
+Ecopetrol,311
+Femsa,312
+Sempra,313
+Société Générale,314
+Texas Instruments,315
+Applied Materials,316
+Pioneer Natural Resources,317
+Bank of Ningbo,318
+Nucor,319
+Cenovus Energy,320
+Bank Of Jiangsu,321
+Micron Technology,322
+Couche Tard,323
+PG&E,324
+Freeport-McMoRan,325
+Huaxia Bank,326
+United Overseas Bank,327
+Kering,328
+Emirates NBD,329
+Shin-Etsu Chemical,330
+Gree Electric Appliances,331
+Discover Financial Services,332
+Citic Securities,333
+Lennar,334
+China Communications Construction,335
+PDD Holdings,336
+Progressive,337
+Berkshire Hathaway,338
+LG Chem,339
+D.R. Horton,340
+Principal Financial Group,341
+Delta Air Lines,342
+Marsh & McLennan,343
+DNB Bank,344
+Corebridge Financial,345
+Wilmar International,346
+Ameriprise Financial,347
+Bank of Beijing,348
+Kinder Morgan,349
+Fannie Mae,350
+LyondellBasell Industries,351
+Stryker,352
+Dollar General,353
+Japan Tobacco,354
+HP,355
+Panasonic,356
+OMV Group,357
+Paccar,358
+CSX,359
+Becton Dickinson,360
+S&P Global,361
+Eaton,362
+Life Insurance Corp. of India,363
+State Street,364
+Analog Devices,365
+Adobe,366
+Freddie Mac,367
+Nokia,368
+Saudi Telecom,369
+AT&T,370
+Orix,371
+Banco Btg Pactual,372
+National Bank of Canada,373
+BCE,374
+Banorte,375
+Canadian National Railway,376
+TAQA,377
+Daikin Industries,378
+Consolidated Edison,379
+Reckitt Benckiser Group,380
+Swiss Life Holding,381
+Naturgy Energy Group,382
+MS&AD Insurance,383
+Shaanxi Coal Industry,384
+Poste Italiane,385
+General Mills,386
+Tata Consultancy Services,387
+Baoshan Iron & Steel,388
+SEB AB,389
+WM,390
+Erste Group Bank,391
+Tyson Foods,392
+Booking Holdings,393
+Koç Holding,394
+BAE Systems,395
+Heineken,396
+United Airlines Holdings,397
+Haier Smart Home,398
+Johnson Controls International,399
+Cummins,400
+Wanhua Chemical Group,401
+EDF,402
+Bank Of Shanghai,403
+China Yangtze Power,404
+BT Group,405
+CRRC,406
+Hartford Financial Services,407
+Dominion Energy,408
+Mitsubishi Electric,409
+Etisalat,410
+Fresenius,411
+Toyota Tsusho,412
+Bridgestone,413
+Fortescue Metals Group,414
+CEZ Group,415
+Xcel Energy,416
+ENEOS Holdings,417
+Bank Mandiri,418
+Talanx,419
+Hana Financial Group,420
+Tesco,421
+Intel,422
+Axis Bank,423
+Nissan Motor,424
+AIA Group,425
+Marriott International,426
+Boeing,427
+Credit Suisse Group,428
+Carrefour,429
+Danone,430
+Yankuang Energy Group,431
+Regeneron Pharmaceuticals,432
+Canon,433
+NTPC,434
+Emerson Electric,435
+London Stock Exchange,436
+IntercontinentalExchange,437
+Norfolk Southern,438
+Pernod Ricard,439
+Michelin Group,440
+Komatsu,441
+Softbank,442
+DuPont De Nemours,443
+Sysco,444
+Devon Energy,445
+Orsted,446
+American Tower,447
+Lam Research,448
+Fairfax Financial,449
+Larsen & Toubro,450
+Infineon Technologies,451
+Investor AB,452
+Aon,453
+Bank of Nanjing,454
+Baidu,455
+DSV Panalpina,456
+ENGIE,457
+Sherwin-Williams,458
+Sun Hung Kai Properties,459
+Daiwa House Industry,460
+Prologis,461
+Bank Central Asia,462
+Moderna,463
+Hyundai Mobis,464
+M&T Bank,465
+Carrier Global,466
+CSL,467
+CNH Industrial,468
+Grupo Mexico,469
+Keurig Dr Pepper,470
+GE HealthCare Consulting,471
+Maybank,472
+Toyota Industries,473
+Commerzbank,474
+Corteva,475
+TC Energy,476
+Bharti Airtel,477
+Williams,478
+Henkel,479
+Veolia Environnement,480
+Fifth Third Bank,481
+Fast Retailing,482
+S.F. Holding,483
+Intuit,484
+Prudential Financial,485
+Salesforce,486
+China Coal Energy,487
+FirstRand,488
+Svenska Handelsbanken,489
+NetEase,490
+Lenovo Group,491
+New China Life Insurance,492
+CME Group,493
+Recruit Holdings,494
+Tongwei,495
+Swedbank,496
+BASF,497
+Intact Financial,498
+George Weston,499
+Parker-Hannifin,500
+Air Products & Chemicals,501
+Kotak Mahindra Bank,502
+Edison International,503
+Standard Bank Group,504
+Muyuan Foodstuff,505
+Imperial Brands,506
+Mitsui Fudosan,507
+Public Service Enterprise Group,508
+STMicroelectronics,509
+Inpex,510
+Canadian Pacific Kansas City,511
+Naspers,512
+Samsung C&T,513
+Alpha Dhabi Holding,514
+Capgemini,515
+Compass Group,516
+Oneok,517
+Kenvue,518
+Swiss Re,519
+Dollar Tree,520
+Suzuki Motor,521
+Synchrony Financial,522
+Haleon,523
+Bouygues,524
+Hermès International,525
+Coca-Cola Europacific Partners,526
+Sinopharm Group,527
+Raymond James Financial,528
+Ericsson,529
+Longi Green Energy Technology,530
+Woolworths,531
+Thales,532
+Wuliangye Yibin,533
+Eversource Energy,534
+Walgreens Boots Alliance,535
+American Airlines Group,536
+Kuehne & Nagel International,537
+Wesfarmers,538
+Anhui Conch Cement,539
+Indian Oil,540
+Cathay Financial,541
+Central Japan Railway,542
+NXP Semiconductors,543
+Republic Services,544
+Fujitsu,545
+Saudi Arabian Mining,546
+CTBC Financial,547
+Halliburton,548
+Hewlett Packard Enterprise,549
+VMware,550
+Fujifilm Holdings,551
+Nintendo,552
+Citizens Financial Group,553
+Kimberly-Clark,554
+Infosys,555
+Tokyo Electron,556
+Teck Resources,557
+Sumitomo Mitsui Trust,558
+Warner Bros. Discovery,559
+MediaTek,560
+Illinois Tool Works,561
+Woori Financial Group,562
+JBS,563
+DTE Energy,564
+Metallurgical Corp of China,565
+Samsung Life Insurance,566
+Nippon Yusen,567
+Advanced Micro Devices,568
+Huntington Bank,569
+Arch Capital Group,570
+TE Connectivity,571
+Bunge,572
+China Zheshang Bank,573
+Allstate,574
+Luxshare Precision Industry,575
+Jackson Financial,576
+Albertsons,577
+HeidelbergCement,578
+Edp-energias De Portugal,579
+Entergy,580
+Evergreen Marine Corp. (Taiwan),581
+L3Harris Technologies,582
+Deutsche Boerse,583
+Atlas Copco,584
+Regions Financial,585
+Bank of Baroda,586
+TELUS,587
+Boston Scientific,588
+Cognizant,589
+Samsung SDI,590
+Coal India,591
+Tata Steel,592
+Asahi Group Holdings,593
+China Tower Corp.,594
+The Estée Lauder Companies,595
+Riyad Bank,596
+MGM Resorts,597
+Biogen,598
+Neste,599
+East Japan Railway,600
+Telstra,601
+Ferguson,602
+Kubota,603
+Colgate-Palmolive,604
+Kuwait Finance House,605
+AutoZone,606
+Raiffeisen Bank International,607
+China Merchants Shekou Industrial Zone Holdings,608
+Sompo,609
+Grupo Bimbo,610
+China National Nuclear Power,611
+Hess,612
+CK Asset Holdings,613
+SingTel,614
+Deutsche Lufthansa,615
+Rogers Communications,616
+Legal & General Group,617
+Publicis Groupe,618
+Swisscom,619
+Mitsubishi Heavy Industries,620
+SK,621
+Vertex Pharmaceuticals,622
+Sichuan Road & Bridge,623
+Viatris,624
+Bank Of Hangzhou,625
+Idemitsu Kosan,626
+SSE,627
+Industrial Bank of Korea,628
+China Energy Engineering,629
+WEC Energy Group,630
+Hanwha,631
+Trane Technologies,632
+PPG,633
+Volvo Car,634
+Weichai Power,635
+Meituan,636
+CBRE Group,637
+Crown Castle International,638
+Diamondback Energy,639
+Activision Blizzard,640
+Xiamen C&D,641
+CGN Power,642
+Sampo,643
+Inner Mongolia Yili,644
+Northern Trust,645
+Aeon,646
+Murata Manufacturing,647
+Blackstone,648
+Cardinal Health,649
+Loews,650
+Abu Dhabi Commercial Bank,651
+Ecolab,652
+RELX,653
+Safran,654
+Uber,655
+Nomura,656
+IQVIA,657
+United Rentals,658
+Gallagher,659
+Prudential,660
+Equitable Holdings,661
+Hindalco Industries,662
+The Mosaic Company,663
+Norsk Hydro,664
+Richemont,665
+O'Reilly Automotive,666
+Subaru,667
+National Bank of Kuwait,668
+Toshiba,669
+Xiaomi,670
+ASE Technology Holding,671
+Kyocera,672
+Hikvision,673
+Chongqing Changan Auto,674
+Mitsubishi Estate,675
+BOE Technology Group,676
+Turkish Airlines,677
+JFE Holdings,678
+China National Building,679
+TBEA,680
+Ross Stores,681
+Keyence,682
+Quinenco,683
+Best Buy,684
+Renesas Electronics,685
+Amphenol,686
+KLA,687
+Vedanta Limited,688
+Danske Bank,689
+Ally Financial,690
+Corning,691
+Genuine Parts,692
+Steel Dynamics,693
+Reinsurance Group of America,694
+Hong Kong Exchanges,695
+Daqin Railway,696
+Isbank,697
+Verbund,698
+Bajaj Finserv,699
+Semiconductor Manufacturing International,700
+Southwest Airlines,701
+Fortis (Canada),702
+SK Innovation,703
+Associated British Foods,704
+Jardine Matheson,705
+KeyCorp,706
+ZTE,707
+Sekisui House,708
+Omnicom Group,709
+Grasim Industries,710
+Quanta Computer,711
+Sabanci Holding,712
+Rongsheng Petrochemical,713
+International Paper,714
+Eiffage,715
+Tenaris,716
+Tokyo Gas,717
+Korea Gas,718
+Fox,719
+Siemens Energy,720
+QBE Insurance Group,721
+Mahindra & Mahindra,722
+DISH Network,723
+Constellation Energy,724
+Tata Motors,725
+Westlake Chemical,726
+Bank Leumi,727
+Canara Bank,728
+WW Grainger,729
+HD HYUNDAI,730
+Huishang Bank,731
+Coterra Energy,732
+Fubon Financial,733
+AirBnB,734
+AerCap Holdings,735
+Simon Property Group,736
+Renault,737
+Equinix,738
+Solvay,739
+Public Bank,740
+LG Electronics,741
+Fidelity National Information (FIS),742
+UPM-Kymmene,743
+NEC,744
+Ameren,745
+WTW,746
+EQT,747
+Korea Electric Power,748
+ThyssenKrupp Group,749
+YPF,750
+The Hershey Company,751
+ITC,752
+Microchip Technology,753
+MTR,754
+Bank Hapoalim,755
+Targa Resources,756
+HCL Technologies,757
+Saudi British Bank,758
+Tenaga Nasional,759
+VICI Properties,760
+PulteGroup,761
+Sodexo,762
+WPP,763
+Bank of Ireland,764
+Builders FirstSource,765
+Santos,766
+Pembina Pipeline,767
+Albemarle,768
+Baker Hughes Company,769
+CIMB Group Holdings,770
+Otsuka Holding,771
+Zoetis,772
+HF Sinclair,773
+Suzano,774
+Mitsui OSK Lines,775
+Realty Income,776
+Apollo Global Management,777
+W. R. Berkley,778
+Labcorp,779
+Unum,780
+Shanghai Rural Commercial Bank,781
+Public Storage,782
+Country Garden Holdings,783
+CDW,784
+Huatai Securities,785
+CenterPoint Energy,786
+Grupo ACS,787
+Telkom Indonesia,788
+United Microelectronics,789
+Aptiv,790
+Samsung Fire & Marine,791
+NN Group,792
+China Hongqiao Group,793
+Otis Worldwide,794
+Sasol,795
+Yara International,796
+Continental,797
+Sumitomo Electric,798
+China Bohai Bank,799
+Nan Ya Plastics,800
+Guotai Junan Securities,801
+Block,802
+Aluminum Corp of China,803
+Emaar Properties,804
+Kellogg,805
+SQM,806
+Ashtead Group,807
+Daiichi Sankyo,808
+Power Finance,809
+Thomson Reuters,810
+Galp Energia,811
+Absa Group,812
+Assa Abloy,813
+Essity,814
+Joint Stock Commercial Bank for Foreign Trade of Vietnam,815
+First Citizens Bank (NC),816
+Henderson Land,817
+Huaneng Power International,818
+East Money Information,819
+Chesapeake Energy,820
+Sika,821
+Chongqing Rural Bank,822
+Resona Holdings,823
+Jabil Circuit,824
+HMM,825
+Aegon,826
+Globalfoundries,827
+MOL Hungarian Oil,828
+Ageas,829
+Hengli Petrochemical,830
+Mitsubishi UFJ Lease,831
+Greenland Holdings Group,832
+Dongfeng Motor Group,833
+Shanghai Pharmaceuticals,834
+Roper Technologies,835
+Celanese,836
+Julius Baer Group,837
+Isuzu Motors,838
+TD SYNNEX,839
+Motorola Solutions,840
+China Molybdenum,841
+GS Holdings,842
+Great Wall Motor,843
+Sandvik,844
+Air France-KLM,845
+PPL,846
+Hilton Worldwide Holdings,847
+Everest Re Group,848
+Kasikornbank,849
+China Resources Power,850
+Barrick Gold,851
+Molina Healthcare,852
+TDK,853
+Magna International,854
+Power Grid of India,855
+Union Bank of India,856
+Newmont Mining,857
+Paramount,858
+Geely Automobile Holdings,859
+Guosen Securities,860
+Wipro,861
+Lonza Group,862
+China National Chemical,863
+Tractor Supply,864
+Gemdale,865
+Adidas,866
+Sunshine Insurance Group,867
+Ryanair Holdings,868
+GF Securities,869
+Reliance Steel,870
+SM Investments,871
+Delta Electronics,872
+KKR,873
+FirstEnergy,874
+CNPC Capital,875
+SCB X Public Company,876
+GD Power Development,877
+Kansai Electric Power,878
+ON Semiconductor Corp.,879
+Siam Cement,880
+Legend Holding,881
+China Cinda Asset Management,882
+Shanghai International Port,883
+China Taiping Insurance,884
+Cintas,885
+Conagra Brands,886
+Arrow Electronics,887
+Fortum,888
+JSW Steel,889
+Mitsubishi Chemical,890
+Jiangxi Copper,891
+Philips,892
+Stanley Black & Decker,893
+MTN Group,894
+Tokyo Electric Power,895
+Mapfre,896
+Bancolombia,897
+Dubai Islamic Bank,898
+Agnico Eagle Mines,899
+AntarChile,900
+Amcor,901
+PBF Energy,902
+BDO Unibank,903
+Chipotle Mexican Grill,904
+TCL Zhonghuan Renewable Energy Technology,905
+Expeditors International,906
+China Three Gorges Renewables (Group),907
+Shanghai Construction,908
+Alinma Bank,909
+WH Group,910
+Stora Enso,911
+Mazda Motor,912
+Marathon Oil,913
+Link REIT,914
+Coles Group,915
+Avis Budget Group,916
+Unipol Gruppo,917
+Astellas Pharma,918
+Flex,919
+Fidelity National Financial,920
+KT,921
+3i Group,922
+Penske Automotive,923
+Intuitive Surgical,924
+New York Community Bancorp,925
+Sumitomo Realty,926
+Chunghwa Telecom,927
+Eletrobrás,928
+Sumitomo Metal Mining,929
+Weyerhaeuser,930
+Bank Negara Indonesia,931
+CP All,932
+Ulta Beauty,933
+Asahi Kasei,934
+International Flavors & Fragrances,935
+Techtronic Industries,936
+Global Payments,937
+Suncorp Group,938
+Brookfield Renewable,939
+Grupa PZU,940
+CF Industries Holdings,941
+Kirin Holdings,942
+Legrand,943
+NVR,944
+CMS Energy,945
+Baxter International,946
+Rockwell Automation,947
+Rolls-Royce Holdings,948
+China Merchants Securities,949
+Credicorp,950
+ENN Natural Gas,951
+Universal Music Group,952
+US Steel,953
+MercadoLibre,954
+International Airlines,955
+Markel,956
+Ovintiv,957
+ENN Energy Holdings,958
+Mizrahi Tefahot Bank,959
+Monster Beverage,960
+Carnival Corporation,961
+Meritz Financial Group,962
+Hormel Foods,963
+China Mengniu Dairy,964
+OTP Bank,965
+China International Capital,966
+Kone,967
+Mega Financial Holding,968
+Sany Heavy Industry,969
+CGI,970
+Lincoln National,971
+Bank Of Chengdu,972
+Nidec,973
+Fosun International,974
+J.B. Hunt Transport Services,975
+Guangzhou Automobile Group,976
+NASDAQ,977
+Yang Ming Marine Transport,978
+CarMax,979
+Gerdau (Cosigua),980
+Formosa Plastics,981
+TCL,982
+Waste Connections,983
+Bayan Resources,984
+Jeronimo Martins,985
+Chubu Electric Power,986
+Agilent Technologies,987
+Restaurant Brands International,988
+South32,989
+Brenntag,990
+Banque Saudi Fransi,991
+Taiwan Cooperative Financial,992
+Wens Foodstuff Group,993
+Leonardo,994
+SMC,995
+Lufax Holding,996
+T&D Holdings,997
+Anta Sports Products,998
+Moody's,999
+Vestas Wind Systems,1000
+American Water Works,1001
+Zhongsheng Group Holdings,1002
+LKQ,1003
+Db Insurance,1004
+Haitong Securities,1005
+Lululemon Athletica,1006
+JA Solar Technology,1007
+AIB Group,1008
+Yamaha Motor,1009
+BPER Banca,1010
+Sumitomo Chemical,1011
+CLP Holdings,1012
+Yum! Brands,1013
+Qatar Islamic Bank,1014
+Marfrig Global Foods,1015
+First Financial Holding,1016
+Rakuten,1017
+Shaanxi Construction Engineering Group,1018
+Chow Tai Fook Jewellery,1019
+eBay,1020
+HAL Trust,1021
+BorgWarner,1022
+JDE Peet's,1023
+AES,1024
+H&M - Hennes & Mauritz,1025
+Itaúsa,1026
+Edwards Lifesciences,1027
+Luzhou Lao Jiao,1028
+Mediobanca,1029
+Shenzhen Mindray Bio-Medical Electronics,1030
+Alcon,1031
+Swire Pacific,1032
+Macy's,1033
+Akbank,1034
+Alexandria Real Estate Equities,1035
+Wuchan Zhongda Group,1036
+Bangkok Bank,1037
+E-mart,1038
+SDIC Power Holdings,1039
+China Southern Airlines,1040
+Constellation Brands,1041
+Singapore Airlines,1042
+C.H. Robinson,1043
+Vonovia,1044
+Dassault Systemes,1045
+Franklin Resources,1046
+Randstad N.V.,1047
+Grupo Inbursa,1048
+Textron,1049
+China Reinsurance Group,1050
+Nongfu Spring,1051
+Bharat Petroleum,1052
+Royal Caribbean Group,1053
+Evonik Industries,1054
+Voestalpine,1055
+iA Financial Corporation,1056
+S-Oil,1057
+Arista Networks,1058
+Southwestern Energy,1059
+Lithia Motors,1060
+Electronic Arts,1061
+Formosa Petrochemical,1062
+Adani Enterprises,1063
+Beiersdorf,1064
+Ternium,1065
+Financiere de l'Odet,1066
+Fastenal,1067
+Old Dominion Freight Line,1068
+J Sainsbury,1069
+Goodman Group,1070
+Cemex,1071
+Nippon Paint,1072
+Hexagon,1073
+PKO Bank Polski,1074
+Fanuc,1075
+Bank of Changsha,1076
+Interpublic Group,1077
+Flutter Entertainment,1078
+Helvetia Holding,1079
+Paychex,1080
+Commercial Bank For Investment & Development Of Vietnam,1081
+TransDigm Group,1082
+Uni-President,1083
+Darden Restaurants,1084
+Electric Power Development,1085
+Antofagasta,1086
+Shanxi Xinghuacun Fen Wine Factory,1087
+Quanta Services,1088
+Trina Solar,1089
+China Resources Pharmaceutical Group,1090
+Abu Dhabi Islamic Bank,1091
+AvalonBay Communities,1092
+Dover,1093
+Greentown China Holdings,1094
+All Nippon Airways,1095
+Coupang,1096
+Csc Financial,1097
+Eurobank Ergasias,1098
+Centrica,1099
+First Quantum Minerals,1100
+Ball,1101
+Givaudan,1102
+Ametek,1103
+IndusInd Bank,1104
+Adyen,1105
+Snam,1106
+Jacobs Solutions,1107
+E.Sun Financial,1108
+Aviva,1109
+Teva Pharmaceutical,1110
+BAIC Motor,1111
+China Tourism Group Duty Free,1112
+APA,1113
+DiDi Global,1114
+Krung Thai Bank,1115
+China Development Financial,1116
+Comerica,1117
+Dassault Aviation,1118
+Live Nation Entertainment,1119
+Industries Qatar,1120
+West Japan Railway,1121
+Hoya,1122
+Arab National Bank,1123
+Welltower,1124
+Ferrari,1125
+Jiangsu Yanghe Brewery,1126
+Schindler Holding,1127
+Aisin Seiki,1128
+Top Frontier Investment Holdings,1129
+Arca Continental,1130
+Beijing-Shanghai High-Speed Railway,1131
+Punjab National Bank,1132
+ZIM Integrated Shipping Services,1133
+AutoNation,1134
+Dick's Sporting Goods,1135
+Nedbank,1136
+Beijing Enterprises,1137
+Yuanta Financial Holding,1138
+Aena,1139
+Korean Air,1140
+Synopsys,1141
+Telenor,1142
+Equity Residential,1143
+CJ Corporation,1144
+Toray Industries,1145
+Cosmo Energy Holdings,1146
+Hertz Global Holdings,1147
+T Rowe Price,1148
+Israel Discount Bank,1149
+Seazen Group,1150
+Fortinet,1151
+Towngas,1152
+Terna,1153
+National Bank of Greece,1154
+Finatis,1155
+GAIL India,1156
+Hyundai Steel,1157
+Mitsubishi Motors,1158
+Cellnex Telecom,1159
+Westinghouse Air Brake Technologies,1160
+Naver,1161
+Alstom,1162
+China Galaxy Securities,1163
+Telecom Italia,1164
+Ganfeng Lithium,1165
+Evergy,1166
+Experian,1167
+Kajima,1168
+LPL Financial Holdings,1169
+Kao,1170
+Copart,1171
+Vistra Energy,1172
+Brookfield Business,1173
+Yum China Holdings,1174
+Cadence Design,1175
+Wuxi Apptec,1176
+Hydro One,1177
+Sojitz,1178
+NRG Energy,1179
+NARI Technology Development,1180
+China Steel,1181
+Hunan Valin Steel,1182
+Martin Marietta Materials,1183
+Olympus,1184
+East West Bancorp,1185
+SK Telecom,1186
+Vienna Insurance Group,1187
+Grupo Carso,1188
+Coinbase,1189
+Indorama Ventures,1190
+Ferrovial,1191
+Foshan Haitian Flavouring and Food,1192
+American Equity Investment,1193
+VakifBank,1194
+Hua Nan Financial,1195
+Metro,1196
+Tohoku Electric Power,1197
+Digital Realty Trust,1198
+Piraeus Financial Holdings,1199
+Swatch Group,1200
+Scor,1201
+Banco de Sabadell,1202
+Faurecia,1203
+Banco BPM,1204
+Amadeus IT Group,1205
+Bank Of Guiyang,1206
+Expedia Group,1207
+Dongguan Rural Commercial Bank,1208
+WESCO International,1209
+Campbell Soup,1210
+Wolters Kluwer,1211
+Tourmaline Oil,1212
+First Horizon,1213
+Xiamen International Trade Group,1214
+Yuexiu Property,1215
+Popular,1216
+Smurfit Kappa Group,1217
+Chongqing Zhifei Biological Products,1218
+Zions Bancorp,1219
+Zhongyuan Bank,1220
+JM Smucker,1221
+Pegatron,1222
+WEG,1223
+Western Digital,1224
+Lumen Technologies,1225
+Kuaishou Technology,1226
+Olam Group,1227
+Keysight Technologies,1228
+Ford Otosan,1229
+BCI-Banco Credito,1230
+MSCI,1231
+Quest Diagnostics,1232
+HBIS,1233
+Molson Coors Brewing,1234
+AGCO,1235
+Chailease Holding,1236
+Autodesk,1237
+Qinghai Salt Lake Industry,1238
+Western Alliance Bancorp.,1239
+Atmos Energy,1240
+Osaka Gas,1241
+Datang International Power,1242
+PGE Polska Grupa Energetyczna,1243
+Guanghui Energy Co. Ltd.,1244
+Kawasaki Kisen Kaisha,1245
+Rexel,1246
+StoneX Group,1247
+Avnet,1248
+DSM,1249
+Guangzhou Rural Commercial Bank,1250
+Investec,1251
+Liberty Global,1252
+Zimmer Biomet,1253
+Webster Financial,1254
+ResMed,1255
+Partners Group Holding,1256
+China Gas Holdings,1257
+Owens Corning,1258
+Emera,1259
+Brighthouse Financial,1260
+Bunzl,1261
+Mashreq Bank,1262
+Cincinnati Financial,1263
+Mettler-Toledo International,1264
+Vivendi,1265
+WestRock,1266
+XCMG Construction Machinery,1267
+Kyushu Electric Power,1268
+Shanghai Electric Group,1269
+Spotify Technology,1270
+Leidos,1271
+Tianqi Lithium,1272
+Kerry Group,1273
+Evolution Gaming Group AB,1274
+Petronas Chemicals,1275
+China Jinmao,1276
+American Financial Group,1277
+Bank of Chongqing,1278
+Jefferies Financial,1279
+Caesars Entertainment,1280
+Hyundai Glovis,1281
+Jiangsu Eastern Shenghong,1282
+Xinjiang Daqo New Energy,1283
+Bandai Namco Holdings,1284
+ServiceNow,1285
+Vulcan Materials,1286
+Indian Bank,1287
+Newcrest Mining,1288
+Motor Oil,1289
+NetApp,1290
+Jinke Property Group,1291
+Voya Financial,1292
+Las Vegas Sands,1293
+Fortive,1294
+BBMG,1295
+Raizen,1296
+Performance Food Group,1297
+Far East Horizon,1298
+Packaging Corp of America,1299
+Tenet Healthcare,1300
+ZTO Express (Cayman),1301
+Vipshop Holdings,1302
+CJ Cheiljedang,1303
+IDEXX Laboratories,1304
+Sungrow Power Supply,1305
+New World Development,1306
+Wan Hai Lines,1307
+Nu Holdings,1308
+Canadian Tire Corporation,1309
+Gartner,1310
+NiSource,1311
+Carlsberg,1312
+SG Holdings,1313
+Acciona,1314
+Shanxi Xishan Coal & Electricity Power Co. Ltd.,1315
+Multiply Group,1316
+Bâloise Group,1317
+LG,1318
+Japan Exchange Group,1319
+NIPPON EXPRESS HOLDINGS,1320
+CapitaLand Investment,1321
+Oriental Land,1322
+Universal Health Services,1323
+Kaspi.kz JSC,1324
+Xiamen Xiangyu,1325
+Ajinomoto,1326
+Daiwa Securities,1327
+Secom,1328
+Vietin Bank,1329
+China CSSC Holdings,1330
+Transurban Group,1331
+Industrivarden,1332
+Hopson Development Holdings,1333
+Shanxi Lu'an Environmental,1334
+Indian Railway Finance,1335
+DXC Technology,1336
+Korea Investment Holdings,1337
+Boliden,1338
+Mondi,1339
+Skyworks Solutions,1340
+Synovus,1341
+Umicore,1342
+Bluescope Steel,1343
+Formosa Chemicals,1344
+Asr Nederland,1345
+Marvell Technology,1346
+Ingersoll Rand,1347
+Euronext,1348
+Cleveland-Cliffs,1349
+Garmin,1350
+SBI Holdings,1351
+A2A,1352
+Brown-Forman,1353
+Epiroc,1354
+Shin Kong Financial,1355
+Shenzhen Overseas,1356
+Genworth Financial,1357
+St. James's Place,1358
+Shionogi,1359
+Halkbank,1360
+LG Display,1361
+Huadian Power International,1362
+Genmab,1363
+Prysmian,1364
+Salzgitter,1365
+FleetCor Technologies,1366
+U-Haul Holding,1367
+W. P. Carey,1368
+China Longyuan Power,1369
+Crown Holdings,1370
+Hyundai Marine & Fire,1371
+Masco,1372
+Impala Platinum Holdings,1373
+Thai Beverage,1374
+Sanlam,1375
+Constellation Software,1376
+Avery Dennison,1377
+Zhejiang Huayou Cobalt,1378
+BJ's Wholesale Club,1379
+Hellenic Petroleum,1380
+New Hope Liuhe,1381
+Shengjing Bank,1382
+Asbury Automotive Group,1383
+ALFA,1384
+Var Energi ASA,1385
+Bankinter,1386
+BNK Financial Group,1387
+Globe Life,1388
+Antero Resources,1389
+Dentsu,1390
+Thai Oil,1391
+Toll Brothers,1392
+Adaro Energy,1393
+McCormick,1394
+Suntory Beverage & Food,1395
+Extra Space Storage,1396
+Halyk Bank,1397
+Metalurgica Gerdau,1398
+Jinko Solar,1399
+Berry Global Group,1400
+Attijariwafa Bank,1401
+Valeo,1402
+Franco-Nevada,1403
+Guangdong Haid Group,1404
+Grupo Aval,1405
+Charoen Pokphand Foods,1406
+Skanska,1407
+Goodyear,1408
+Jyske Bank,1409
+Bank Albilad,1410
+Coloplast,1411
+Pan Pacific International Holdings,1412
+KE Holdings,1413
+Teledyne Technologies,1414
+Jiangsu Hengrui Medicine,1415
+Trip.com Group,1416
+Eastman,1417
+ICON (Ireland),1418
+Murphy USA,1419
+China Eastern Airlines,1420
+US Foods,1421
+Inner Mongolia Baotou Steel,1422
+Huafa Industrial,1423
+Bank of Greece,1424
+Wharf Real Estate Investment,1425
+Wacker Chemie,1426
+Phoenix Group Holdings,1427
+Annaly Capital Management,1428
+Akzo Nobel,1429
+Latam Airlines,1430
+Commercial Bank of Qatar,1431
+AGC,1432
+RHB Bank,1433
+Invesco,1434
+Bank of Tianjin,1435
+XP,1436
+Schweizerische Nationalbank,1437
+Interactive Brokers Group,1438
+Siam Makro,1439
+Tokyo Century,1440
+Israel Corp,1441
+NEXON,1442
+Outokumpu,1443
+Arkema,1444
+Terumo,1445
+Advantest,1446
+Hologic,1447
+Alliant Energy,1448
+Bank of Suzhou,1449
+Hong Leong Financial,1450
+Borouge,1451
+Starwood Property Trust,1452
+China Shipbuilding Industry,1453
+WuXi Biologics,1454
+China Nuclear Engineering Corporation,1455
+Samsung SDS,1456
+VeriSign,1457
+China International Marine,1458
+"LG Innotek Co.,",1459
+Virgin Money UK,1460
+Kingspan Group PLC,1461
+Cullen/Frost Bankers,1462
+AirAsia X,1463
+SinoPac Financial,1464
+Toppan Printing,1465
+Midea Real Estate Holding,1466
+SGS,1467
+Kobe Steel,1468
+Williams-Sonoma,1469
+Bank of Guizhou,1470
+Chugoku Electric Power,1471
+Geberit,1472
+OCI,1473
+Inner Mongolia Yitai Coal,1474
+Ryder System,1475
+Banca Mediolanum,1476
+Liberty Broadband,1477
+Shopify,1478
+Palo Alto Networks,1479
+Shanghai Commercial & Savings Bank,1480
+Valley National Bancorp,1481
+China Resources Beer (Holdings),1482
+Lindt & Sprungli,1483
+PTT Global Chemical,1484
+Advanced Info Service,1485
+ARC Resources,1486
+Thor Industries,1487
+Adani Power Limited,1488
+Unicharm,1489
+Group 1 Automotive,1490
+Metropolitan Bank & Trust,1491
+"Hangzhou Binjiang Real Estate Group Co., Ltd.",1492
+Henry Schein,1493
+Schaeffler,1494
+Taishin Financial Holdings,1495
+Huaibei Mining Holdings,1496
+Jones Lang LaSalle,1497
+ADNOC Drilling,1498
+China Communications Services,1499
+Ventas,1500
+Snap-on,1501
+Boston Properties,1502
+M&G,1503
+Sartorius,1504
+Workday,1505
+Shimano,1506
+World Fuel Services,1507
+Fukuoka Financial Group,1508
+Sonova Holding,1509
+Qilu Bank,1510
+Bank of India,1511
+China Grand Automotive Services,1512
+Bank Pekao,1513
+Ampol,1514
+Hera,1515
+Shenzhen Inovance Technology,1516
+Chiba Bank,1517
+Falabella,1518
+Wheaton Precious Metals,1519
+Aldar Properties,1520
+Olin,1521
+Compal Electronics,1522
+Lotte Chemical,1523
+Old Mutual,1524
+Bank of East Asia,1525
+Empire,1526
+Bank of Zhengzhou,1527
+China Huarong Asset Management,1528
+Concordia Financial Group,1529
+Jiangsu Zhongnan Construction Group,1530
+DaVita,1531
+Eurofins Scientific Societe Europeenne,1532
+Vietnam Technological & Commercial Joint Stock Bank,1533
+Whirlpool,1534
+Aeroports de Paris,1535
+Aramark,1536
+Avantor,1537
+Check Point Software,1538
+Nitori Holdings,1539
+Carlyle Group,1540
+Covestro,1541
+Korea Shipbuilding & Offshore Engineering,1542
+Empresas CMPC,1543
+Teleperformance,1544
+Banque Cantonale Vaudoise,1545
+Harbour Energy,1546
+Fastighets Balder,1547
+KPN,1548
+Waters,1549
+Mebuki Financial Group,1550
+Yunnan Yuntianhua,1551
+Moncler SpA,1552
+Zhejiang Expressway Co. Ltd.,1553
+Mirae Asset Financial Group,1554
+Brown & Brown,1555
+Equifax,1556
+Beijing Shougang,1557
+El Puerto de Liverpool,1558
+Sibanye Stillwater,1559
+Asustek Computer,1560
+TFI International,1561
+Bajaj Auto,1562
+Ningxia Baofeng Energy Group,1563
+BOK Financial,1564
+Kesko,1565
+Kingdom Holding,1566
+Old National Bank,1567
+Telia,1568
+West Pharmaceutical Services,1569
+Shiseido,1570
+Kingfisher,1571
+AECOM Technology,1572
+PT Garuda Indonesia (Persero),1573
+B3,1574
+Commercial Metals,1575
+Seadrill,1576
+China Resources Gas Group,1577
+Sun Pharma Industries,1578
+ASM International,1579
+"Sumitomo Forestry Co.,",1580
+Ansys,1581
+Rajesh Exports,1582
+Snowflake,1583
+Wistron,1584
+Banca MPS,1585
+WSP,1586
+Iron Mountain,1587
+Metro Group,1588
+Wuestenrot & Wuerttembergische,1589
+CSPC Pharmaceutical Group,1590
+Eve Energy,1591
+Hokuhoku Financial Group,1592
+DoorDash,1593
+Mid-america Apartment Communities,1594
+Lear,1595
+Verisk Analytics,1596
+Kintetsu,1597
+Adani Ports & Special Economic Zone,1598
+Mitsui Chemicals,1599
+Asian Paints,1600
+Bank of Qingdao,1601
+Golden Agri-Resources,1602
+Vibra Energia,1603
+Stifel Financial,1604
+Military Commercial Joint Stock Bank,1605
+DexCom,1606
+Grupo Elektra,1607
+Wintrust Financial,1608
+Aristocrat Leisure,1609
+Shenwan Hongyuan Group,1610
+Shizuoka Financial Group,1611
+Altice USA,1612
+Navient,1613
+Zhejiang Zheneng Electric Power,1614
+Chewy,1615
+BayWa,1616
+Hubei Biocause Pharmaceutical,1617
+Obayashi,1618
+Unicaja Banco,1619
+Agile Group Holdings,1620
+Lotte Shopping,1621
+Harbin Bank,1622
+Japan Securities,1623
+FMC,1624
+Carlisle Cos,1625
+Shinsei Bank,1626
+Assurant,1627
+Nishi-nippon Financial Holdings,1628
+Kyushu Financial Group,1629
+Li Ning,1630
+SDIC Capital,1631
+Hachijuni Bank,1632
+Banco Comercial Portugues,1633
+Saputo,1634
+Hengyi Petrochemical,1635
+Kawasaki Heavy Industries,1636
+Mobileye Global,1637
+Host Hotels & Resorts,1638
+Coinshares International,1639
+Next,1640
+Commercial International Bank,1641
+Invitation Homes,1642
+Taylor Morrison Home,1643
+Banpu,1644
+China Merchants Port Holdings,1645
+Braskem,1646
+Dollarama,1647
+North Pacific Bank,1648
+Sharp,1649
+United Natural Foods,1650
+Yamaguchi Financial,1651
+Pinnacle Bank,1652
+Andon Health,1653
+Clorox,1654
+GCL Technology Holdings,1655
+Schroders,1656
+Veeva Systems,1657
+Dai Nippon Printing,1658
+Doosan,1659
+Casey's General Stores,1660
+Gaming And Leisure Properties,1661
+Alpha Bank,1662
+Gold Fields,1663
+Nitto Denko,1664
+Sinotrans Ltd.,1665
+SS&C Technologies,1666
+Hirogin Holdings,1667
+CPFL Energia,1668
+FinecoBank,1669
+Chang Hwa Bank,1670
+China Northern Rare Earth High-Tech,1671
+DCC,1672
+Air Canada,1673
+Adecco Group,1674
+Daou Data,1675
+JD Sports Fashion,1676
+Shenzhou International Group Holdings,1677
+Seagen,1678
+Ultrapar Participacoes,1679
+Pool,1680
+Zheshang Development Group,1681
+Watsco,1682
+Anhui Gujing Distillery,1683
+Croda International Plc,1684
+Keppel,1685
+Parkland,1686
+Aurubis,1687
+News Corp,1688
+Suning.com,1689
+Whitehaven Coal,1690
+Li Auto,1691
+Bank of Kyoto,1692
+Ooredoo Q.P.S.C,1693
+RenaissanceRe Holdings,1694
+KGHM Polska Miedz,1695
+Hyundai Engineering,1696
+Unisplendour,1697
+Medipal Holdings,1698
+Storebrand,1699
+Kakao,1700
+TUI,1701
+STRABAG,1702
+Atlassian,1703
+WPG Holdings,1704
+Broadridge Financial,1705
+EMS-Chemie Holding,1706
+Hancock Holding,1707
+First Pacific,1708
+Daishi Hokuetsu Financial Group,1709
+Pdc Energy,1710
+South State,1711
+Ares Management,1712
+Tapestry,1713
+China Development Bank Financial Leasing,1714
+77 Bank,1715
+China Overseas Grand Oceans Group,1716
+CPI Property Group,1717
+Gunma Bank,1718
+Tech Mahindra,1719
+F.N.B.,1720
+Pilbara Minerals,1721
+Take-Two Interactive Software,1722
+"Chugin Financial Group,Inc.",1723
+Jiangxi Bank,1724
+Rite Aid,1725
+Coca-Cola HBC,1726
+Old Republic International,1727
+Teradyne,1728
+Power Assets Holdings,1729
+DGB Financial Group,1730
+Range Resources,1731
+Daou Technology,1732
+Jointown Pharmaceutical Group,1733
+Anhui Water Resources Development,1734
+Bank of Queensland,1735
+Goertek,1736
+Ceconomy,1737
+Covivio,1738
+Illumina,1739
+SBI Sumishin Net Bank,1740
+Beijing Wantai Biological Pharmacy Enterprise,1741
+Dr. Sulaiman Al-Habib Medical Services Group,1742
+China Industrial Securities,1743
+Fibra Uno,1744
+Oji Holdings,1745
+Petro Rabigh,1746
+ACWA Power,1747
+Credito Emiliano,1748
+Booz Allen Hamilton Holding,1749
+Aker,1750
+Bank of Jiujiang,1751
+Hygon Information Technology,1752
+UCB,1753
+Xinte Energy,1754
+Taiwan Business Bank,1755
+Revvity,1756
+Trade Desk,1757
+Airports of Thailand,1758
+Iveco Group,1759
+SITC International Holdings,1760
+CoStar Group,1761
+Qingdao Rural Commercial Bank,1762
+Bank of Lanzhou,1763
+IDEX,1764
+Straumann Holding,1765
+Unibail-Rodamco-Westfield,1766
+Graphic Packaging,1767
+Shimizu,1768
+AGNC Investment,1769
+Galaxy Entertainment,1770
+Bath & Body Works,1771
+Titan (India),1772
+Zhejiang Chint Electrics,1773
+Enphase Energy,1774
+Aier Eye Hospital Group,1775
+Bendigo & Adelaide Bank,1776
+Iida Group Holdings,1777
+K+S,1778
+AVIC Capital,1779
+"Iyogin Holdings,Inc.",1780
+Luzerner Kantonalbank,1781
+Angang Steel,1782
+BeiGene,1783
+Hanwa,1784
+Cencosud,1785
+CrowdStrike,1786
+Knight-swift Transportation Holdings,1787
+Origin Energy,1788
+Fertiglobe,1789
+Avenue Supermarts,1790
+Tingyi Holding,1791
+Dangote Cement,1792
+Beijing Kingsoft Office Software.,1793
+Nexi S.p.A.,1794
+Worldline,1795
+Sonic Healthcare,1796
+Sumec Corporation,1797
+Peabody Energy,1798
+Banca Popolare di Sondrio,1799
+HII,1800
+Guangzhou Tinci Materials Technology,1801
+ONO Pharmaceutical,1802
+Alfresa Holdings,1803
+Bank of Xi'an,1804
+Delek US Holdings,1805
+JSW Group,1806
+Frasers Property,1807
+Sun Communities,1808
+Bawag Group,1809
+Kohl's,1810
+Chord Energy,1811
+TMB Bank,1812
+Synnex Technology Intl,1813
+Hyatt Hotels,1814
+Basler Kantonalbank,1815
+Sino-Ocean Group Holding,1816
+Yunnan Copper Co. Ltd.,1817
+Alnylam Pharmaceuticals,1818
+China Fortune Land Development,1819
+Prosperity Bancshares,1820
+Brambles,1821
+Darling Ingredients,1822
+RiseSun Real Estate Development,1823
+Beijing Capital Development,1824
+Knorr-Bremse,1825
+Manpower,1826
+Red Eléctrica,1827
+SBA Communications,1828
+West Fraser Timber Co.,1829
+OneMain Holdings,1830
+Horizon Therapeutics Public Limited Company,1831
+Brookfield Reinsurance,1832
+Deutsche Pfandbriefbank,1833
+Howmet Aerospace,1834
+Bank OZK,1835
+Japan Airlines,1836
+Samsung Electro-Mechanics,1837
+Steel Authority of India,1838
+Quilter,1839
+Delivery Hero,1840
+Tsingtao Brewery,1841
+Hyakugo Bank,1842
+Johnson Matthey,1843
+Ricoh,1844
+Cadence Bank,1845
+IDBI Bank,1846
+Migdal Insurance,1847
+Lamb Weston Holdings,1848
+Juroku  Financial Group,1849
+FIBI Holdings,1850
+General Insurance Corporation Of India,1851
+EQT AB,1852
+Zenith Bank,1853
+Burlington Stores,1854
+Bank Of Gansu,1855
+Aozora Bank,1856
+WT Microelectronics,1857
+Segro,1858
+VF,1859
+Columbia Bank,1860
+JB Financial Group,1861
+Tongling Nonferrous Metals,1862
+Barry Callebaut,1863
+NAURA Technology GroupLtd,1864
+Xiamen Bank,1865
+Prada,1866
+Shiga Bank,1867
+Datadog,1868
+Monolithic Power Systems,1869
+Guangzhou R&F,1870
+NIBE Industrier,1871
+Church & Dwight,1872
+Orient Securities,1873
+Viva Energy Group,1874
+Nomura Research Institute,1875
+CNX Resources,1876
+Advanced Micro-Fabrication Equipment Inc. China,1877
+Ningbo Port,1878
+Inventec,1879
+Logan Property Holdings,1880
+Uniqa,1881
+United Utilities,1882
+Shanxi Coal International Energy Group,1883
+DISCO Corp.,1884
+Align Technology,1885
+Shanghai Tunnel Engineering Co. Ltd.,1886
+Alpha Metallurgical Resources,1887
+Zhangzhou Pientzehuang Pharmaceutical,1888
+Shriram Transport Finance Co.,1889
+Saras,1890
+Rheinmetall,1891
+Ogaki Kyoritsu Bank,1892
+Aareal Bank,1893
+Royalty Pharma,1894
+Almarai,1895
+CTP,1896
+Zhejiang Construction Investment Group,1897
+Heico,1898
+Rentokil Initial,1899
+KION Group,1900
+Arab Bank,1901
+YTO Express Group,1902
+Nanto Bank,1903
+Tokyo Kiraboshi Financial Group,1904
+Suzuken,1905
+Callon Petroleum,1906
+OMRON,1907
+San-In Godo Bank,1908
+City Developments,1909
+LG Uplus,1910
+Public Power,1911
+Weihai City Commercial Bank,1912
+Insulet Corp,1913
+Masraf Al Rayan,1914
+Mowi ASA,1915
+NIO,1916
+Comstock Resources,1917
+Hubbell,1918
+Toho Bank,1919
+Kyndryl Holdings,1920
+Bausch Health Companies,1921
+Andersons,1922
+Dillard's,1923
+Guangzhou Baiyunshan Pharmaceutical Holdings,1924
+ATOS,1925
+Bank Muscat,1926
+Jinshang Bank,1927
+arGEN-X,1928
+Civitas Resources,1929
+Mercuries & Associates,1930
+Keiyo Bank,1931
+Taisei,1932
+Scentre Group,1933
+Banque Centrale Populaire,1934
+Zalando,1935
+HubSpot,1936
+Yunnan Baiyao Group,1937
+Fuyao Glass Industry Group,1938
+Hotai Motor,1939
+Seagate Technology,1940
+Daito Trust Construction,1941
+Senshu Ikeda Holdings,1942
+Korea Zinc,1943
+Jiangsu Changshu Rural Commercial Bank,1944
+Sansteel Minguang,1945
+Central Bank of India,1946
+EFG International,1947
+Shanghai Yuyuan Tourist Mart,1948
+Northern Oil and Gas,1949
+Liberty Media Corporation Series A Liberty Formula One,1950
+United Therapeutics,1951
+Digital China Group,1952
+KakaoBank,1953
+Roblox,1954
+RPM International,1955
+Lundbergs,1956
+Gulfport Energy,1957
+China Merchants Expressway Network & Technology Holdings,1958
+Hoshine Silicon Industry,1959
+CapitaMall Trust,1960
+Healthpeak Properties,1961
+Advance Auto Parts,1962
+EXOR,1963
+Camden Property Trust,1964
+Zall Smart Commerce Group,1965
+China Aviation Oil,1966
+Univar,1967
+Rollins,1968
+Sasa Polyester Sanayi,1969
+Murphy Oil,1970
+Nippon Steel Trading,1971
+PacWest Bancorp,1972
+St. Mary Land & Exploration Co.,1973
+Cosan,1974
+CVR Energy,1975
+St. Galler Kantonalbank,1976
+Arch Resources,1977
+Grupo Bolivar,1978
+AviChina Industry & Technology,1979
+FCC,1980
+President Chain Store,1981
+Xylem,1982
+International Distributions Services,1983
+Par Pacific Holdings,1984
+China Jushi,1985
+Grandjoy Holdings Group,1986
+Kiyo Bank,1987
+Pakistan State Oil,1988
+Penn Entertainment,1989
+OSB Group,1990
+China Merchants Port Group,1991
+iflytek,1992
+Polaris Inc.,1993
+Yango Group,1994
+Kangmei Pharmaceutical,1995
+Alfa Laval,1996
+Gap,1997
+Yes Bank,1998
+BEKB-BCBE,1999
+Ipsen,2000
