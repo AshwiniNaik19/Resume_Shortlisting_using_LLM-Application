@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Resume Scoring Application
+    </title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 2rem;
+        background-color: #f5f7fa;
+        margin: 0;
+    }
+    h1, h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .upload-link {
+        background-color: #CCCCFF;
+        padding: 0.5rem 1rem;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .upload-link:hover {
+        background-color: #A3A3CC;
+    }
+
+    .section-title {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 1rem 0 0.5rem;
+        color: #292966;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 0.5rem;
+        background-color: white;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        border-radius: 6px;
+        overflow: hidden;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    th {
+        background-color: #292966;
+        color: white;
+    }
+
+    a {
+        color: #292966;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    button {
+        background-color: #5C5C99;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #A3A3CC;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0,0,0,0.6);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 6px;
+        max-width: 90%;
+        position: relative;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .close {
+        position: absolute;
+        right: 12px;
+        top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li {
+        padding: 4px 0;
+    }
+
+    .modal-header h2 {
+        margin: 0;
+        font-size: 2rem;
+        color: #5C5C99;
+        border-bottom: 2px solid #f1f2f6;
+        padding-bottom: 0.5rem;
+    }
+
+    .modal-body {
+        white-space: pre-line;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #2f3542;
+        padding: 1.5rem;
+        background-color: #CCCCFF;
+        border-radius: 12px;
+        margin-top: 1.2rem;
+        position: relative;
+    }
+
+    .modal-body strong.highlight {
+        background-color: #CCCCFF;
+        color: #2d3436;
+        padding: 3px 6px;
+        border-radius: 6px;
+        font-weight: 600;
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    #reasonModal {
+        display: none;
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1000;
+    }
+
+    #reasonModal .modal-content {
+        background: #fff;
+        margin: 8% auto;
+        padding: 25px 30px;
+        width: 420px;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        font-family: Arial, sans-serif;
+    }
+
+    #explainModal .modal-content,
+    #emailModal .modal-content {
+        max-width: 750px;
+        width: 90%;
+        max-height: 85vh;
+        padding: 2rem;
+        border-radius: 16px;
+        box-shadow: 0 12px 45px rgba(0, 0, 0, 0.4);
+        font-family: 'Segoe UI', sans-serif;
+        animation: fadeIn 0.3s ease-in-out;
+        border-top: 6px solid #A3A3CC;
+    }
+
+    #emailModal .modal-body textarea {
+        height: 180px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="header">
+        <h2>Resume Scoring Application</h2>
+       <div>
+        <a href="/upload" class="upload-link" style="background-color:#5C5C99; margin-right:10px;">Add More Resumes</a>
+        <a href="/discarded-resumes" class="upload-link" style="background-color:#6f4ea9;">Discarded Resumes</a>
+        </div>
+    </div>
+
+    <div class="section-title">Leaderboard</div>
+
+    {% if resumes %}
+    <table>
+        <thead>
+            <tr>
+                <th>
+                        Uploaded Date
+                        <button onclick="toggleSortMenu()" style="background-color: transparent; border: none; cursor: pointer; margin-left: 6px;">
+                            🔽
+                        </button>
+                        <div id="sortMenu" style="display:none; position:absolute; background-color:#8686cd; border:1px solid #5C5C99; border-radius:6px; padding:8px; z-index:1000;">
+                            <label><input type="radio" name="sortOption" value="newest" checked> Newest First</label><br>
+                            <label><input type="radio" name="sortOption" value="oldest"> Oldest First</label><br>
+                            <button onclick="applySort()" style="margin-top:6px; background-color:#5C5C99;">Apply</button>
+                        </div>
+                    </th>
+
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Score</th>
+                <th>Resume</th>
+                <th>Overview</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for resume in resumes %}
+            <tr id="row-{{ loop.index }}">
+                <td>{{ resume.processed_date }}</td>
+                <td>{{ resume.name }}</td>
+                <td><a href="javascript:void(0);" onclick="openEmailModal('{{ resume.email }}')">{{ resume.email }}</a></td>
+                <td>{{ resume.phone_number }}</td>
+                <td>
+                    {% if resume.score_formula %}
+                        <a href="javascript:void(0);" onclick="showScoreModalText('{{ resume.score_formula }}')">{{ resume.score }}</a>
+                    {% else %}
+                        {{ resume.score }}
+                    {% endif %}
+                </td>
+                <td><a href="{{ resume.resume_link }}" target="_blank">View</a></td>
+                <td>
+                    {% if resume.explainability %}
+                        <button onclick="showExplainModal(`{{ resume.explainability }}`)">Summary</button>
+                    {% else %}
+                        <em>N/A</em>
+                    {% endif %}
+                </td>
+                 <td>
+                        <button style="background-color:#6f4ea9;" onclick="confirmDeletion('{{ resume.name }}', '{{ resume.phone_number }}', '{{ resume.email }}', '{{ loop.index }}')">Remove</button>
+                    </td>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No resumes uploaded yet.</p>
+    {% endif %}
+
+    <!-- Explain Modal -->
+    <div id="explainModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeExplainModal()">&times;</span>
+            <div class="modal-header">
+                <h2>🧑‍💼 Candidate Overview</h2>
+            </div>
+            <div class="modal-body" id="explanationText"></div>
+        </div>
+    </div>
+
+    <!-- Reason Modal -->
+    <div id="reasonModal">
+        <div class="modal-content">
+            <h3>Choose a reason to remove</h3>
+            <select id="reasonSelect" onchange="toggleOtherReason()" style="width:100%; padding:10px; margin:15px 0; border:1px solid #ccc; border-radius:6px; font-size:14px;">
+                <option value="did not clear TP1">Did not clear TP1</option>
+                <option value="did not clear TP2">Did not clear TP2</option>
+                <option value="no response from the candidate">No response from the candidate</option>
+                <option value="outdated profile">Outdated profile</option>
+                <option value="other">Other</option>
+            </select>
+            <textarea id="otherReasonInput" style="display:none; width:100%; padding:10px; height:70px; border:1px solid #ccc; border-radius:6px; font-size:14px;" placeholder="Enter custom reason..."></textarea>
+            <div style="text-align:right; margin-top:20px;">
+                <button onclick="submitRemoval()" style="background-color:#5C5C99; color:white; padding:10px 20px; border:none; border-radius:6px; margin-right:10px;">Confirm</button>
+                <button onclick="closeModal()" style="background-color:#bdc3c7; color:#333; padding:10px 20px; border:none; border-radius:6px;">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showExplainModal(url) {
+            const fullExplanation = new URL(url).searchParams.get("explanation");
+            let decodedText = decodeURIComponent(fullExplanation.replace(/\+/g, ' '));
+            decodedText = decodedText.replace(/Score calculation breakdown/gi, '<strong class="highlight">Score calculation breakdown</strong>');
+            document.getElementById("explanationText").innerHTML = decodedText;
+            document.getElementById("explainModal").style.display = "flex";
+        }
+        
+        function closeExplainModal() {
+            document.getElementById("explainModal").style.display = "none";
+        }
+        let currentName, currentPhone, currentEmail, currentRowIndex;
+
+        function confirmDeletion(name, phone, email, rowIndex) {
+            currentName = name;
+            currentPhone = phone;
+            currentEmail = email;
+            currentRowIndex = rowIndex;
+
+            document.getElementById("reasonSelect").selectedIndex = 0;
+            document.getElementById("otherReasonInput").value = "";
+            document.getElementById("otherReasonInput").style.display = "none";
+            document.getElementById("reasonModal").style.display = "block";
+        }
+
+        function toggleOtherReason() {
+            const selected = document.getElementById("reasonSelect").value;
+            document.getElementById("otherReasonInput").style.display = (selected === "other") ? "block" : "none";
+        }
+
+        function closeModal() {
+            document.getElementById("reasonModal").style.display = "none";
+        }
+
+        function submitRemoval() {
+            const reason = document.getElementById("reasonSelect").value === "other"
+                ? document.getElementById("otherReasonInput").value.trim()
+                : document.getElementById("reasonSelect").value;
+
+            if (!reason) return alert("Please enter a valid reason.");
+
+            if (!confirm(`Are you sure you want to delete the resume of "${currentName}"?`)) return;
+
+            const invalidPhone = ["", "n/a", "na", "not available", "null", "undefined"];
+            const identifier = currentPhone && !invalidPhone.includes(currentPhone.toLowerCase().trim())
+                ? currentPhone
+                : currentEmail;
+
+            fetch(`/remove-resume-ui?identifier=${encodeURIComponent(identifier)}`, {
+                method: "DELETE",
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ removal_reason: reason })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.status === "success") {
+                    alert(`✅ Resume of "${currentName}" has been removed.`);
+                    document.getElementById(`row-${currentRowIndex}`).remove();
+                } else {
+                    alert(`❌ Failed: ${data.message}`);
+                }
+            })
+            .catch(err => alert("❌ Error: " + err.message));
+
+            closeModal();
+        }
+        function toggleSortMenu() {
+            const menu = document.getElementById("sortMenu");
+            menu.style.display = (menu.style.display === "none" || menu.style.display === "") ? "block" : "none";
+        }
+
+        function applySort() {
+            const selectedOption = document.querySelector('input[name="sortOption"]:checked').value;
+            const table = document.querySelector("table");
+            const tbody = table.querySelector("tbody");
+            const rows = Array.from(tbody.querySelectorAll("tr"));
+
+            rows.sort((a, b) => {
+                const dateA = new Date(a.children[0].innerText.trim());
+                const dateB = new Date(b.children[0].innerText.trim());
+                return selectedOption === "newest" ? dateB - dateA : dateA - dateB;
+            });
+
+            rows.forEach(row => tbody.appendChild(row));
+            document.getElementById("sortMenu").style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
