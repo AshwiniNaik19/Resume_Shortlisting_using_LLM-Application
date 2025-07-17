@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+  <title>Resume Scoring Application</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      font-size: 15px;
+      background-color: #6d6d9e;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #6d6d9e;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .file-label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    input[type="file"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      transition: border 0.2s ease;
+    }
+
+    input[type="file"]:hover {
+      border-color: #6d6d9e;
+    }
+
+    input[type="submit"] {
+      background-color: #5C5C99;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #5C5C99;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="{{ url_for('leaderboard') }}" class="back-button">← Back to Leaderboard</a>
+
+    <h1>Resume Scoring Application</h1>
+    <p class="subtitle">Upload your resume(s) for automated scoring and ranking</p>
+
+    <form method="POST" enctype="multipart/form-data" action="{{ url_for('upload_resume') }}">
+      <div class="form-group">
+        <label class="file-label" for="resumeFiles">📄 Select Resume(s) (PDF)</label>
+        <input id="resumeFiles" type="file" name="resumes" multiple required>
+      </div>
+      <input type="submit" value="Upload">
+    </form>
+  </div>
+</body>
+</html>
