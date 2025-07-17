@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+  <title>Scored Resumes</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f3f5f7;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #535399;
+      margin-bottom: 20px;
+    }
+
+    .back-button {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 10px 18px;
+      background-color: #535399;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #6f4ea9;
+    }
+
+    .duplicates {
+      background-color: #f4f2ff;
+      border-left: 6px solid #6f4ea9;
+      padding: 15px;
+      margin-bottom: 25px;
+      border-radius: 6px;
+    }
+
+    .duplicates h3 {
+      margin-top: 0;
+      color: #535399;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    th {
+      background-color: #535399;
+      color: white;
+    }
+
+    td a {
+      color: #6f4ea9;
+      text-decoration: none;
+    }
+
+    td a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      padding: 8px 14px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #535399;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #6f4ea9;
+    }
+
+    em {
+      color: #999;
+    }
+
+    /* Modal Styling */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .modal-content {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 16px;
+      max-width: 750px;
+      width: 90%;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: 0 12px 45px rgba(0, 0, 0, 0.4);
+      position: relative;
+      animation: fadeIn 0.3s ease-in-out;
+      border-top: 6px solid #535399;
+    }
+
+    .modal-header h2 {
+      margin: 0;
+      font-size: 2rem;
+      color: #6f4ea9;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
+
+    .modal-body {
+      white-space: pre-line;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #333;
+      padding: 1.5rem;
+      background-color: #f4f2ff;
+      border-radius: 12px;
+      margin-top: 1.2rem;
+    }
+
+    .modal-body strong.highlight {
+      background-color: #e5e1ff;
+      color: #2d2d2d;
+      padding: 3px 6px;
+      border-radius: 6px;
+      font-weight: 600;
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    .close {
+      position: absolute;
+      right: 20px;
+      top: 18px;
+      font-size: 30px;
+      color: #535399;
+      cursor: pointer;
+      transition: color 0.2s ease;
+    }
+
+    .close:hover {
+      color: #6f4ea9;
+    }
+
+    @keyframes fadeIn {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Buttons -->
+  <a href="{{ url_for('leaderboard') }}" class="back-button">← Go to Leaderboard</a>
+
+  <div class="container">
+    <h2>Scored Resumes</h2>
+    <a href="{{ url_for('upload_resume') }}" class="back-button" style="background-color: #6f4ea9;">← Back</a>
+
+    {% if duplicates %}
+    <div class="duplicates">
+      <h3>⚠️ Duplicate Resumes Detected:</h3>
+      <ul>
+        {% for d in duplicates %}
+        <li><strong>{{ d.filename }}</strong>: {{ d.reason }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <!-- Resume Table -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Score</th>
+        <th>Resume Link</th>
+        <th>Overview</th>
+      </tr>
+      {% for res in resumes %}
+      <tr>
+        <td>{{ res.name }}</td>
+        <td>{{ res.email }}</td>
+        <td>{{ res.phone_number }}</td>
+        <td>
+          {% if res.score_formula %}
+            <a href="javascript:void(0);" onclick="showScoreModalText('{{ res.score_formula }}')">{{ res.score }}</a>
+          {% else %}
+            {{ res.score }}
+          {% endif %}
+        </td>
+        <td><a href="{{ res.resume_link }}" target="_blank">View</a></td>
+        <td>
+          {% if res.explainability %}
+            <button onclick="showExplainModal('{{ res.explainability }}')">Summary</button>
+          {% else %}
+            <em>N/A</em>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <!-- Candidate Overview Modal -->
+  <div id="explainModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeExplainModal()">&times;</span>
+      <div class="modal-header">
+        <h2>🧑‍💼 Candidate Overview</h2>
+      </div>
+      <div class="modal-body" id="explanationText"></div>
+    </div>
+  </div>
+
+  <!-- JS Functions -->
+  <script>
+    function showExplainModal(url) {
+      const fullExplanation = new URL(url).searchParams.get("explanation");
+      let decodedText = decodeURIComponent(fullExplanation.replace(/\+/g, ' '));
+      decodedText = decodedText.replace(
+        /Score calculation breakdown/gi,
+        '<strong class="highlight">Score calculation breakdown</strong>'
+      );
+      document.getElementById("explanationText").innerHTML = decodedText;
+      document.getElementById("explainModal").style.display = "flex";
+    }
+
+    function closeExplainModal() {
+      document.getElementById("explainModal").style.display = "none";
+    }
+  </script>
+
+</body>
+</html>
